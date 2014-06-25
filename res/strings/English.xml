@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <!-- Main menu -->
+  <string name="play">Play</string>
+  <string name="levelEditor">Level editor</string>
+  <string name="settings">Settings</string>
+  <string name="quit">Quit</string>
+
+  <!-- General strings -->
+  <string name="back">Back</string>
+  <string name="yes">yes</string>
+  <string name="no">no</string>
+
+  <!-- Level selection menu -->
+  <string name="world">World</string>
+  <string name="level">Level</string>
+
+  <!-- End of a level strings -->
+  <string name="yourScore">Your score : {0}</string>
+  <string name="scoreTooLow">Not added to the leaderboard.</string>
+  <string name="scoreAdded">Added to the leaderboard !</string>  
+  <string name="scoresError">Cannot be send to the server :</string>
+  <string name="nextLevel">Next level</string>
+  
+  <!-- Level editor -->
+  <string name="platforms">Platforms</string>
+  <string name="entities">Entities</string>
+  <string name="entitySettings">Entity settings</string>
+  <string name="levelSettings">Level settings</string>
+
+  <!-- Main settings menu -->
+  <string name="binding">Keyboard binding</string>
+  <string name="video">Video</string>
+  <string name="sound">Sound</string>
+  <string name="username">Username</string>
+  <string name="misc">Misc</string>
+
+  <!-- Binding settings menu -->
+  <string name="pressKeyFor">Press key for : </string>
+  <string name="Default">everywhere</string>
+  <string name="MenuState">menu</string>
+  <string name="GameState">in-game</string>
+
+  <!-- Video settings menu -->
+  <string name="videoMode">Video mode</string>
+  <string name="fullscreen">Fullscreen</string>
+  <string name="windowed">Windowed</string>
+  <string name="borderless">Borderless</string>
+  <string name="resolution">Resolution</string>
+  <string name="drawTextures">Draw textures</string>
+
+  <!-- Sound settings -->
+  <string name="musicVolume">Music volume</string>
+  <string name="fxVolume">Sound volume</string>
+
+  <!-- Misc settings -->
+  <string name="language">Language</string>
+  <string name="localLeaderboards">Local scores server</string>
+  <string name="settingsReset">Reset settings</string>
+
+  <!-- Username settings -->
+  <string name="usernameHelp">Please type your username then press ENTER to exit :</string>
+  
+  <!-- Pause menu -->
+  <string name="resume">Resume</string>
+  <string name="backMain">Main menu</string>
+  
+  <!-- In-game GUI -->
+  <string name="life">Life</string>
+  <string name="speed">Speed</string>
+
+</resources>

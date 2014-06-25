@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <!-- Main menu -->
+  <string name="play">Jouer</string>
+  <string name="levelEditor">Editeur de niveaux</string>
+  <string name="settings">Options</string>
+  <string name="quit">Quitter</string>
+
+  <!-- General strings -->
+  <string name="back">Retour</string>
+  <string name="yes">oui</string>
+  <string name="no">non</string>
+
+  <!-- Level selection menu -->
+  <string name="world">Monde</string>
+  <string name="level">Niveau</string>
+
+  <!-- End of a level strings -->
+  <string name="yourScore">Votre score : {0}</string>
+  <string name="scoreTooLow">Non ajouté au classement.</string>
+  <string name="scoreAdded">Ajouté au classement !</string>
+  <string name="scoresError">Non envoyé au serveur :</string>
+  
+  <!-- Level editor -->
+  <string name="platforms">Plateformes</string>
+  <string name="entities">Entités</string>
+  <string name="entitySettings">Paramètres de l'entité</string>
+  <string name="levelSettings">Paramètres du niveau</string>
+  <string name="nextLevel">Niveau suivant</string>
+  
+  <!-- Main settings menu -->
+  <string name="binding">Configuration du clavier</string>
+  <string name="video">Vidéo</string>
+  <string name="sound">Audio</string>
+  <string name="username">Pseudonyme</string>
+  <string name="misc">Divers</string>
+
+  <!-- Binding settings menu -->
+  <string name="pressKeyFor">Appuyez sur la touche pour : </string>
+  <string name="Use">Utiliser</string>
+  <string name="Up">Haut</string>
+  <string name="Down">Bas</string>
+  <string name="Left">Gauche</string>
+  <string name="Right">Droite</string>
+  <string name="Jump">Sauter</string>
+  <string name="Run">Courir</string>
+  <string name="Pause">Pause</string>
+  <string name="Default">partout</string>
+  <string name="MenuState">menu</string>
+  <string name="GameState">en jeu</string>
+
+  <!-- Video settings menu -->
+  <string name="videoMode">Mode vidéo</string>
+  <string name="fullscreen">Plein écran</string>
+  <string name="windowed">Fenêtré</string>
+  <string name="borderless">Sans bordures</string>
+  <string name="resolution">Résolution</string>
+  <string name="drawTextures">Textures</string>
+
+  <!-- Sound settings -->
+  <string name="musicVolume">Volume musique</string>
+  <string name="fxVolume">Volume sons</string>
+  
+  <!-- Misc settings -->
+  <string name="language">Langue</string>
+  <string name="localLeaderboards">Serveur de scores local</string>
+  <string name="settingsReset">Remise à zéro des paramètres</string>
+
+  <!-- Username settings -->
+  <string name="usernameHelp">Entrez votre pseudonyme puis appuyez sur ENTREE pour quitter :</string>
+
+  <!-- Pause menu -->
+  <string name="resume">Reprendre</string>
+  <string name="backMain">Retour au menu principal</string>
+
+  <!-- In-game GUI -->
+  <string name="life">Vie</string>
+  <string name="speed">Vitesse</string>
+
+</resources>
