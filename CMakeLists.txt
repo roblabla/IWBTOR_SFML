@@ -12,7 +12,7 @@ endif()
 set(Platformer_VERSION_MAJOR 1)
 set(Platformer_VERSION_MINOR 0)
 configure_file(
-  "${PROJECT_SOURCE_DIR}/config.h.in"
+  "${PROJECT_SOURCE_DIR}/src/config.h.in"
   "${PROJECT_BINARY_DIR}/config.h"
   )
 include_directories("${PROJECT_BINARY_DIR}")
@@ -20,14 +20,16 @@ include_directories("${PROJECT_BINARY_DIR}")
 # Define sources and executable
 set(EXECUTABLE_NAME "Platformer")
 
-set(SRCS main.cpp
-         Game.cpp
-         Game.hpp
-         MenuState.cpp
-         MenuState.hpp
-         IState.hpp
-         Settings.cpp
-         Settings.hpp)
+set(SRCS src/main.cpp
+         src/Game.cpp
+         src/Game.hpp
+         src/MenuState.cpp
+         src/MenuState.hpp
+         src/IState.hpp
+         src/Settings.cpp
+         src/Settings.hpp
+         src/ResMan.cpp
+         src/ResMan.hpp)
 
 add_executable(${EXECUTABLE_NAME} ${SRCS})
 

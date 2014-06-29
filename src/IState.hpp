@@ -3,6 +3,7 @@
 
 #include<string>
 #include<SFML/Window.hpp>
+#include "Settings.hpp"
 class IState {
 public:
   virtual std::string getBgMusic() { return ""; }
@@ -10,6 +11,7 @@ public:
   virtual void update() = 0;
   virtual void draw() = 0;
   virtual void onEvent(sf::Event) = 0;
+  virtual void onEvent(Action) = 0;
   virtual void uninitialize() = 0;
   virtual ~IState(){}
 };

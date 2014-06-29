@@ -3,12 +3,12 @@
 
 #include<string>
 #include <map>
+#include <tuple>
 #include <SFML/Window.hpp>
 #include <cereal/cereal.hpp>
 #include <cereal/archives/json.hpp>
 #include <cereal/types/string.hpp>
 #include <cereal/types/map.hpp>
-#include <cereal/types/array.hpp>
 enum Action {
   Use,
   Up,
@@ -31,10 +31,14 @@ public:
   float soundVolume;
   bool leaderboardLocal;
   std::string username;
-  Action getAction(std::string type, sf::Keyboard::Key ev);
+  Action getAction(/*std::string type, */sf::Keyboard::Key ev);
+  Action getAction(/*std::string type, */sf::Joystick::Axis ev, float pos);
+  Action getAction(/*std::string type, */uint32_t ev);
 private:
-  std::map<std::string, std::map<sf::Keyboard::Key, Action>> _keyboardKeys;
-  std::map<std::string, std::map<uint32_t, Action>> _joystickKeys;
+  std::map<sf::Keyboard::Key, Action> _keyboardKeys;
+  std::map<uint32_t, Action> _joystickKeys;
+  std::map<sf::Joystick::Axis, std::tuple<Action, Action>> _joystickAxis;
+
   friend class cereal::access;
   template<class Archive>
   void serialize(Archive& ar, uint32_t const version) {
