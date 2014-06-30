@@ -1,0 +1,8 @@
+macro(add_target_property target property value)
+   get_target_property(TEMP "${target}" ${property})
+   if(NOT TEMP)
+      set_target_properties("${target}" PROPERTIES ${property} "${value}")
+   else(NOT TEMP)
+      set_target_properties("${target}" PROPERTIES ${property} "${TEMP} ${value}")
+   endif(NOT TEMP)
+endmacro(add_target_property)

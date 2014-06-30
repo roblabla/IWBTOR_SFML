@@ -1,0 +1,46 @@
+{
+  "animations": {
+    "roof": {
+      "top": 0,
+      "width": 32,
+      "height": 32,
+      "interval": 1,
+      "frames": 1
+    },
+    "inside": {
+      "top": 32,
+      "width": 32,
+      "height": 32,
+      "interval": 1,
+      "frames": 1
+    },
+    "side": {
+      "top": 64,
+      "width": 32,
+      "height": 32,
+      "interval": 1,
+      "frames": 1
+    },
+    "window": {
+      "top": 96,
+      "width": 32,
+      "height": 64,
+      "interval": 1,
+      "frames": 1
+    },
+    "door": {
+      "top": 160,
+      "width": 32,
+      "height": 32,
+      "interval": 1,
+      "frames": 1
+    }
+  },
+  "alphaColor": {
+    "a": 255,
+    "r": 234,
+    "g": 0,
+    "b": 255
+  },
+  "texturePerAnim": true
+}

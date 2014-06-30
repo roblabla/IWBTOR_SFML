@@ -10,6 +10,7 @@
 #include<SFML/Graphics.hpp>
 #include<SFML/System.hpp>
 #include "Settings.hpp"
+
 class MenuState : public IState {
 public:
   MenuState(Game& game, std::string font, std::string img, std::initializer_list<std::string> args);
@@ -30,7 +31,7 @@ private:
   std::vector<sf::Text> _menuBtns;
   int _selectedPos;
   Game& _game;
-  sf::Font* _font;
+  std::shared_ptr<sf::Font> _font;
 };
 
 #endif

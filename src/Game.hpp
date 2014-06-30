@@ -5,8 +5,8 @@
 #include<SFML/Graphics.hpp>
 #include <memory>
 #include <chrono>
-#include "IState.hpp"
 #include "Settings.hpp"
+#include "IState.hpp"
 
 class Game {
 public:

@@ -43,9 +43,11 @@ private:
   template<class Archive>
   void serialize(Archive& ar, uint32_t const version) {
     if (version == 1) {
-      ar(drawTextures, videoModeWidth, videoModeHeight,
-         musicVolume, soundVolume, leaderboardLocal,
-         username, _keyboardKeys, _joystickKeys);
+      ar(CEREAL_NVP(drawTextures), CEREAL_NVP(videoModeWidth),
+         CEREAL_NVP(videoModeHeight), CEREAL_NVP(musicVolume),
+         CEREAL_NVP(soundVolume), CEREAL_NVP(leaderboardLocal),
+         CEREAL_NVP(username), cereal::make_nvp("keyboardKeys", _keyboardKeys),
+         cereal::make_nvp("joystickKeys", _joystickKeys));
     } else {
       throw 1;
     }

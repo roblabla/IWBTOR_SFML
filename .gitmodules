@@ -1,3 +1,6 @@
 [submodule "thirdparty/cereal"]
 	path = thirdparty/cereal
 	url = https://github.com/USCiLab/cereal.git
+[submodule "thirdparty/tinydir"]
+	path = thirdparty/tinydir
+	url = https://github.com/cxong/tinydir.git

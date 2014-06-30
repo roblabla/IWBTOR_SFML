@@ -90,11 +90,6 @@ void MenuState::onItemSelected(std::function<void(int)> func) {
   this->_onItemSelected = func;
 }
 
-/* Eventually, will need to implement the action stuff.
- * void MenuState::onEvent(Action action) {
-
-}*/
-
 void MenuState::uninitialize() {
 
 }
